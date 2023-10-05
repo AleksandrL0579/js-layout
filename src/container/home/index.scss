@@ -1,0 +1,64 @@
+@use '../../style/header.scss' as header;
+
+
+.community{
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.tab{
+	display: flex;
+	justify-content: space-evenly;
+	border-bottom: 1px solid #E6E6E6;
+}
+
+.tab-button{
+	width: 100%;
+	color: #888;
+	padding-bottom: 12px;
+}
+
+.active{
+	color: #121212;
+	border-bottom: 2px solid #121212;
+
+}
+
+.main{
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.info{
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+}
+
+.info--title{
+	font-size: 18px;
+	font-weight: 500;
+	color: #121212;
+}
+
+.info--text{
+	font-size: 14px;
+	font-weight: 400;
+	color: #363636;
+	line-height: 150%;
+}
+
+.com__button{
+	border-radius: 10px;
+	background-color: #F46F17;
+	color:  #FFF;
+	text-align: center;
+	font-size: 14px;
+	font-weight: 700;
+	padding-top: 16px;
+	padding-bottom: 16px;
+}
+
+
